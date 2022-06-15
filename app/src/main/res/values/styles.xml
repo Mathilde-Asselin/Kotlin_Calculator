@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ButtonStyle = For calculator buttons -->
+    <style name="Button_Style" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- ButtonCancel = Just to add Color on Cancel Button :) -->
+    <style name="Button_Cancel" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@color/backgroundCard</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
